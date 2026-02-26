@@ -5,7 +5,7 @@ Minimalistic Python library for generating and serving documentation from Markdo
 ## Installation
 
 ```bash
-pip install mkpy
+pip install mkpy-client
 ```
 
 ## Quick Start

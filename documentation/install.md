@@ -7,7 +7,7 @@
 ## Установка через pip
 
 ```bash
-pip install mkpy
+pip install mkpy-client
 ```
 
 ## Установка из исходников

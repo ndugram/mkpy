@@ -28,7 +28,7 @@ docs.run()
 ## Установка
 
 ```bash
-pip install mkpy
+pip install mkpy-client
 ```
 
 ## Структура маршрутов
