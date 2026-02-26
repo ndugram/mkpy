@@ -1,6 +1,6 @@
 [project]
 name = "mkpy-client"
-version = "1.4.0"
+version = "1.4.1"
 description = "Minimalistic Python library for generating and serving documentation from Markdown files"
 readme = "README.md"
 requires-python = ">=3.9"
