@@ -24,6 +24,20 @@ mkpy serve
 mkpy serve --folder docs --theme dark --port 3000
 ```
 
+### mkpy build
+
+Генерирует статический сайт из markdown файлов.
+
+```bash
+mkpy build
+```
+
+С параметрами:
+
+```bash
+mkpy build --folder docs --output site --theme dark
+```
+
 ### mkpy version
 
 Показывает версию mkpy.
@@ -43,7 +57,33 @@ mkpy version
 | `--port` | `-p` | Порт сервера | 8000 |
 | `--no-nav` | | Отключить навигацию | false |
 
+## Опции build
+
+| Опция | Кратко | Описание | По умолчанию |
+|-------|--------|----------|--------------|
+| `--folder` | `-f` | Папка с markdown файлами | docs |
+| `--output` | `-o` | Выходная папка для HTML | project |
+| `--title` | `-t` | Заголовок документации | MKPY |
+| `--theme` | | Тема: light или dark | light |
+| `--no-nav` | | Отключить навигацию | false |
+
 ## Примеры
+
+### Генерация статического сайта
+
+```bash
+# Базовое использование - создаст папку project с HTML файлами
+mkpy build
+
+# С указанием папки и вывода
+mkpy build --folder docs --output mysite
+
+# С темной темой
+mkpy build --theme dark
+
+# Всё вместе
+mkpy build --folder docs --output site --theme dark --title "My Docs"
+```
 
 ### Запуск с параметрами
 
